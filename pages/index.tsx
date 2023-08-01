@@ -54,8 +54,9 @@ export default function Home() {
     <main className="flex w-full bg-white min-h-screen flex-col items-center p-24" >
       {/* <Header /> */}
       <section className=''>
-        <h1 className='text-transparent text-center text-9xl mt-10 font-black bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text'>
-          Welcome to CoursePro:
+        <h1 className='text-transparent text-center text-9xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl
+         mt-10 font-black bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text'>
+          Welcome to EduPro:
         </h1>
         <h2 className='text-transparent text-center text-5xl mt-10 font-black bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text'>
           Learn...Earn...Empower
