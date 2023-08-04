@@ -1,3 +1,5 @@
+This is a simple E-learning website at it's earliest stage. There is a landing page and when each course is clicked it dynamically loads specific course page for that course.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
