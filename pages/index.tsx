@@ -3,6 +3,8 @@ import Header from '@/components/header';
 import Link from 'next/link';
 import courses from '@/data/courses';
 import { url } from 'inspector';
+import SlidesData from '@/data/slidesData';
+import Slider from '@/components/Slider';
 // import '../global.css'
 // import womanInTech from 'course-site/public/images/woman-in-tech.jpg'
 
@@ -49,17 +51,19 @@ function CourseList() {
 
 
 
+
 export default function Home() {
   return (
-    <main className="flex w-full bg-white min-h-screen flex-col items-center p-24" >
+    <main className="flex w-full bg-black min-h-screen flex-col items-center p-24" >
       {/* <Header /> */}
       <section className=''>
+        <Slider slides={SlidesData} />
         <h1 className='text-transparent text-center text-9xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl
          mt-10 font-black bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text'>
-          Welcome to EduPro:
+          Welcome to Wallstreet Schools:
         </h1>
         <h2 className='text-transparent text-center text-5xl mt-10 font-black bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text'>
-          Learn...Earn...Empower
+          Learn...Earn...Grow
           </h2>
 
       </section>
